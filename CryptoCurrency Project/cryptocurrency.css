@@ -1,0 +1,186 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #808080; /* Set entire background color to gray */
+    color: #333;
+}
+
+/* Header image */
+img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Home, Services, Product, Contact sections */
+div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1, h3 {
+    color: #fff; /* Change text color to white for better contrast */
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+h1 {
+    color: #B197FC;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+/* Sign Up Button */
+i.fa-sharp.fa-solid.fa-right-to-bracket {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #B197FC;
+    margin: 10px;
+}
+
+i.fa-sharp.fa-solid.fa-right-to-bracket:hover {
+    color: #7A5DFF;
+}
+
+/* Main text section */
+p h3 {
+    font-size: 1.1rem;
+    color: #f1f1f1; /* Lighter gray text color */
+    line-height: 1.5;
+}
+
+/* Play button and Learn More section */
+.play-btn-inner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#ctrlIcon {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#ctrlIcon:hover {
+    color: #B197FC;
+}
+
+i.fa-solid.fa-circle-info {
+    font-size: 1.2rem;
+    color: #B197FC;
+    cursor: pointer;
+}
+
+i.fa-solid.fa-circle-info:hover {
+    color: #7A5DFF;
+}
+
+/* Crypto image */
+.crypto img {
+    width: 80%;
+    max-width: 500px;
+    display: block;
+    margin: 30px auto;
+}
+
+/* Quicklinks */
+.quicklinks {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quicklinks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quicklinks li {
+    display: inline-block;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.quicklinks li i {
+    font-size: 2rem;
+    color: #B197FC;
+}
+
+.quicklinks li h3 {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+/* Social Media Icons */
+.socialmedia {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.socialmedia ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.socialmedia li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.socialmedia li i {
+    font-size: 2rem;
+    color: #B197FC;
+    transition: color 0.3s;
+}
+
+.socialmedia li i:hover {
+    color: #7A5DFF;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    img {
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .quicklinks li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .socialmedia li {
+        margin: 10px 0;
+    }
+
+    .crypto img {
+        width: 100%;
+    }
+}
+
+
